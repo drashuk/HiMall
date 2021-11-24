@@ -1,0 +1,63 @@
+<ion-content>
+  <ion-grid class="gridregister">
+      <ion-row class="rowregister1">
+          <ion-col>
+            <ion-toolbar>
+            <ion-button [routerLink]="['/login']" class="buttonBack">
+              <ion-icon slot="icon-only" name="arrow-back-outline" class="iconBack"></ion-icon>
+            </ion-button>
+          </ion-toolbar>
+          </ion-col>
+          
+      </ion-row>
+      
+  
+      <ion-row class="rowregister2">
+          <ion-col>
+  
+          </ion-col>
+      </ion-row>
+  
+  </ion-grid>
+  
+  <ion-slide>
+      <div class="container-register">
+          <ion-grid>
+         
+              <ion-row>
+                  <ion-col>
+                      <h1 class="titleiniciar">Registro de Usuario</h1>
+                  </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col>
+                      <ion-list>
+  
+                        <ion-item>
+                          <ion-icon name="people-outline" class="icon-register" ></ion-icon>
+                          <ion-input name="nombre" class="nameInput" type="text" required placeholder="Nombre"></ion-input>
+                      </ion-item>
+                      <br />
+                          <ion-item>
+                              <ion-icon name="mail-outline" class="icon-register" ></ion-icon>
+                              <ion-input name="email" class="userInput" type="email" required placeholder="Correo"></ion-input>
+                          </ion-item>
+                          <br />
+                          <ion-item>
+                              <ion-icon name="keypad-outline" class="icon-register"></ion-icon>
+                              <ion-input name="password" class="passInput" type="password" required placeholder="Contraseña"></ion-input>
+                          </ion-item>
+  
+                      </ion-list>
+                  </ion-col>
+              </ion-row>
+              <ion-row>
+                  <ion-col>
+                      <ion-button type="submit" fill="solid" expand="full" class="register-button" >
+                          Registrarme
+                      </ion-button>
+                  </ion-col>
+              </ion-row>
+          </ion-grid>
+      </div>
+  </ion-slide>

@@ -1,0 +1,65 @@
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" class="tabs"  [routerLink]="['/home']">
+        <ion-icon name="home" class="icontabs"></ion-icon>
+        <ion-label class="labeltabs" >Inicio</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map" class="tabs" [routerLink]="['/mapa']">
+        <ion-icon name="map" class="icontabs"></ion-icon>
+        <ion-label class="labeltabs" >Mapa</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="perfil" class="tabs" [routerLink]="['/perfil']">
+        <ion-icon name="people" class="icontabs"></ion-icon>
+        <ion-label class="labeltabs" >Perfil</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  
+
+  <ion-grid class="gridperfil">
+    <ion-row class="rowperfil1">
+      <ion-col>
+        <br><br>
+      <ion-avatar class="avatar">
+        <img src="https://t2.uc.ltmcdn.com/images/0/3/2/img_como_alejarse_de_una_persona_toxica_45230_600.jpg">
+      </ion-avatar>
+      
+      <ion-title class="titleprofile">Daniel Orellana</ion-title>
+      <ion-title class="titleprofile" >+56979612490</ion-title>
+        </ion-col>
+    </ion-row>
+    
+    <ion-row class="rowperfil2">
+        <ion-col>
+          <ion-title class="titlestats">Estadísticas:</ion-title>
+          <ion-item>
+            <ion-label class="statslabs">Ofertas Cazadas</ion-label>
+            <ion-badge slot="end" color="dark">206</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label class="statslabs">Tiendas Encontradas</ion-label>
+            <ion-badge color="dark" slot="end">118</ion-badge>
+          </ion-item>
+          <ion-item>
+            <ion-label class="statslabs">Visitas al Mes</ion-label>
+            <ion-badge color="dark" slot="end">13</ion-badge>
+          </ion-item>
+          <ion-button (click)="onClick()" fill="solid" expand="full" class="datos-button" [routerLink]="['/home']" >
+            Actualizar Datos
+            <ion-icon slot="start" name="pencil"></ion-icon>
+        </ion-button>
+        <ion-button type="submit" fill="solid" expand="full" class="logout-button" [routerLink]="['/login']" >
+          Cerrar Sesión
+          <ion-icon slot="start" name="log-out"></ion-icon>
+      </ion-button>
+        </ion-col>
+    </ion-row>
+
+</ion-grid>
+
+
+</ion-content>

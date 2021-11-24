@@ -1,0 +1,57 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="quedeseashome">¿Qué deseas hacer hoy?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" class="tabs"  [routerLink]="['/home']">
+        <ion-icon name="home" class="icontabs"></ion-icon>
+        <ion-label class="labeltabs" >Inicio</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map" class="tabs" [routerLink]="['/mapa']">
+        <ion-icon name="map" class="icontabs"></ion-icon>
+        <ion-label class="labeltabs" >Mapa</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="perfil" class="tabs" [routerLink]="['/perfil']">
+        <ion-icon name="people" class="icontabs"></ion-icon>
+        <ion-label class="labeltabs" >Perfil</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+
+
+<ion-grid fixed>
+  <div class="container-home">
+  <ion-row>
+    <ion-col>
+      <p class="parrafos">¡Recuerda Activar tu Ubicación!</p>
+      <ion-item>
+        <ion-label>Selecciona tu Mall</ion-label>
+        <ion-select interface="popover">
+          <ion-select-option value="pzaoeste">Plaza Oeste</ion-select-option>
+          <ion-select-option value="pzanorte">Plaza Norte</ion-select-option>
+          <ion-select-option value="pzavespucio">Plaza Vespucio</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-button type="submit" fill="solid" expand="full" class="ofertas-button" [routerLink]="['/home']" >
+        Buscar Ofertas
+        <ion-icon slot="start" name="pricetag-outline"></ion-icon>
+    </ion-button>
+    <ion-button type="submit" fill="solid" expand="full" class="tiendas-button" [routerLink]="['/home']" >
+      Buscar Tiendas
+      <ion-icon slot="start" name="cart"></ion-icon>
+  </ion-button>
+  <br>
+  <img src="https://media.fashionnetwork.com/m/2eb4/e8ec/b622/a691/a647/9ed0/4473/323c/6301/cff7/cff7.jpg" alt="">
+    </ion-col>
+  </ion-row>
+  </div>
+</ion-grid>
+
+
+</ion-content>

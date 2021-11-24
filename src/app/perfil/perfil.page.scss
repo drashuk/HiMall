@@ -1,0 +1,108 @@
+.tabs {
+    --background-hover: #d8673a;
+    --background-activated: #e09273;
+    --background: rgba(241, 52, 5, 0.911)
+  }
+  
+  .labeltabs {
+    color: white;
+  }
+  
+  .icontabs {
+    color: white;
+  }
+
+  .bg-image {
+    background-color: #F7556D;
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.imageprofile {
+    height: 5vw; 
+    width: 5vw; 
+   border: 2px solid #fff;
+   border-radius: 50%;
+   box-shadow: 0 0 5px gray;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+} 
+
+.gridperfil {
+    height: 100%;
+    padding: 0px;
+}
+
+
+.rowperfil1 {
+    height: 30%;
+    background: -moz-linear-gradient(45deg, rgb(236, 15, 15) 0%, rgba(241, 52, 5, 0.911) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(236, 15, 15) 0%, rgba(241, 52, 5, 0.911) 100%);
+    background: linear-gradient(45deg, rgb(236, 15, 15) 0%, rgba(241, 52, 5, 0.911) 100%);
+}
+
+.rowperfil2 {
+    height: 50%;
+}
+
+.avatar {
+    margin: auto;
+    background: white;
+}
+
+.titleprofile {
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.statslabs{
+    background: -webkit-linear-gradient(50deg, rgb(218, 137, 17) 0%, rgba(247, 3, 3, 0.911) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titlestats {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.datos-button {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 50px;
+    white-space: pre-wrap;
+    --background-hover: #df4a0f;
+    --background-activated: #df4a0f;
+    --background: rgba(241, 52, 5, 0.911)
+  }
+  
+  
+  .logout-button {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    --background-hover: #df4a0f;
+    --background-activated: #df4a0f;
+    --background: rgba(241, 52, 5, 0.911)
+  }
